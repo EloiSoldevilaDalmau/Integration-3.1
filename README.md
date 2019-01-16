@@ -16,13 +16,13 @@ This has created a Project directory which contains a package.xml and a CMakeLis
 
 We update the package.xml file with a description and we put ourselves as the mantainer. We also license it with the BSD licence. We don't change the dependencies.
 
-## 2.Create a file with parameter year equals to 2018
+## 2. Create a file with parameter year equals to 2018
 
 As parameters are often written in yaml we will create a .yaml file named "year" with only the parameter year. Find it in the general directory.
 
-## 3.Create a launch file that loads that parameter in the namespace /masteruvic
+## 3. Create a launch file that loads that parameter in the namespace /masteruvic
 
 We create a launch directory and a file named ex3.launch.
 In this file we write a rosparam load command that loads the year parameter.
 
-## 4.
+## 4. 
