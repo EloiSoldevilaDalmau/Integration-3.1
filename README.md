@@ -45,6 +45,8 @@ When we launch the file now it opens a rviz window.
 
 The written code can also be find in the file.launch file. It is the part of the <include ...> </include>.
 
+The cam opens when the same file is launched now.
+
 ## 6. What are the arguments of usb_cam-test.launch?
 
 The parameters found in the usb_cam node we find the parameters:
