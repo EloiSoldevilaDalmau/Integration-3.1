@@ -1,0 +1,11 @@
+<launch>
+
+  <rosparam command="load" file="$(find project_integration)/year.yaml" ns="masteruvic"/>
+
+  <node pkg="rviz" type="rviz" name="rviz">
+  </node>
+
+  <include file="$(find usb_cam)/launch/usb_cam-test.launch">
+  </include>
+
+</launch>
